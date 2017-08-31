@@ -1,0 +1,7 @@
+{
+    "name": "parshant/calc",
+    "description": "this is demo package for calculating.",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
