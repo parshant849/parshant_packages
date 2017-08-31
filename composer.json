@@ -1,7 +1,14 @@
 {
-    "name": "parshant/calc", 
+    "name": "parshant/calc",
     "description": "this is demo package for calculating.",
     "license": "MIT",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+    	"php": ">=5.4.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Parshant\\Calc\\": "src/"
+        }
+    }
 }
