@@ -1,6 +1,7 @@
 {
     "name": "parshant/calc",
     "description": "this is demo package for calculating.",
+    "type": "laravel",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
