@@ -21,7 +21,7 @@ class CalcServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function register()
+    public function register() 
     {
         $this->app->make('Parshant\Calc\CalcController');
         $this->loadViewsFrom(__DIR__.'/views', 'calc');
